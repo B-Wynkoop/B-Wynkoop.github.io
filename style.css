@@ -29,10 +29,6 @@ body {
 	color: white;
 }
 
-/*body {
-	padding: 0 5px;
-}*/
-
 /*#########################################################################################################################################################################*/
 																		/* BUTTONS */
 
@@ -44,43 +40,13 @@ button {
 	font-size: 18px;
 	color: black;
 	cursor: pointer;
-	margin-top: 120px;
+	margin-top: 15px;
 }
 
-.home-button button {
-	background-color: skyblue;
-	border-color: black;
-	font-family: cursive;
-	padding: 10px 20px;
-	font-size: 18px;
-	color: black;
-	cursor: pointer;
-	margin-top: 23px;
+button:hover {
+	background-color: white;
 }
 
-.skills-button button {
-	background-color: skyblue;
-	border-color: black;
-	font-family: cursive;
-	padding: 10px 20px;
-	font-size: 18px;
-	color: black;
-	cursor: pointer;
-	margin-top: 30px;
-	margin-bottom: 15px;
-}
-
-.githubscript button {
-	background-color: skyblue;
-	border-color: black;
-	font-family: cursive;
-	padding: 10px 20px;
-	font-size: 18px;
-	color: black;
-	cursor: pointer;
-	margin-top: 140px;
-	margin-bottom: 0px;
-}
 
 /*#########################################################################################################################################################################*/
 																		/* NAME TITLE */
@@ -109,17 +75,8 @@ img {
 	border-radius: 75px;
 	background-color: skyblue;
 	padding: 5px;
-	margin-top: -165px;
+	margin-top: -150px;
 }
-
-/*.my-photo {
-	background-color: skyblue;
- 	display: block;
- 	width: 150px;
- 	height: 150px;
- 	color: black;
- 	padding: 5px;
-}*/
 
 /*#########################################################################################################################################################################*/
 																		/* ABOUT & GOALS SUB-TITLES & TEXT */
@@ -128,7 +85,7 @@ img {
 	font-family: cursive;
 	color: skyblue;
 	font-size: 23px;
-	margin-top: 10px;
+	margin-top: 0px;
 	/* text-decoration: underline; */
 }
 
@@ -136,7 +93,7 @@ img {
 	margin-top: 60px;
 	font-family: Helvetica;
 	font-size: 17px;
-	line-height: 1.6;
+	line-height: 1.7;
 
 }
 .goals-container {
@@ -149,7 +106,7 @@ img {
 /*#########################################################################################################################################################################*/
 																		/* SKILLS */
 
-.skills {
+.tech-skills {
 	font-family: cursive;
 	font-size: 25px;
 }
@@ -159,14 +116,19 @@ img {
 	font-family: Helvetica;
 }
 
-.mainskills p {
+.softskillstext p {
 	font-family: Helvetica;
 	color: skyblue;
 }
 
-.softskills p {
+.skills-text p {
 	font-family: Helvetica;
-	color: skyblue;
+	color: lightgrey;
+}
+
+.soft-skills {
+	font-family: cursive;
+	font-size: 25px;
 }
 
 /*#########################################################################################################################################################################*/
@@ -189,9 +151,39 @@ img {
 }
 
 /*#########################################################################################################################################################################*/
+																		/* PRE */
+
+pre {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-x: auto;
+	max-width: 100%;
+	box-sizing: border-box;
+	padding: 1em;
+}
+
+code {
+	display: block;
+}
+
+/*#########################################################################################################################################################################*/
+																		/* CONTAINER */
 
 .container {
 	max-width: 1100px;
 	margin: 12px;
 	padding: 0px;
+}
+
+/*#########################################################################################################################################################################*/
+																		/* LINKS */
+
+a {
+	color: skyblue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: yellow;
+	text-decoration: underline;
 }
