@@ -52,7 +52,7 @@ button:hover {
 																		/* NAME TITLE */
 
 .fullname {
-	color: white;
+	color: skyblue;
 	font-family: cursive;
 	font-size: 25px;
 	margin-left: 170px;
@@ -70,7 +70,7 @@ img {
 	
 .MyPhoto img {
 	border-radius: 75px;
-	background-color: white;
+	background-color: skyblue;
 	padding: 5px;
 	position: relative;
 	margin-top: -200px;
@@ -106,6 +106,7 @@ img {
 
 .tech-skills {
 	font-family: cursive;
+	color: skyblue;
 	font-size: 25px;
 }
 
@@ -126,7 +127,13 @@ img {
 
 .soft-skills {
 	font-family: cursive;
+	color: skyblue;
 	font-size: 25px;
+}
+
+.softskillsheader {
+	font-size: 20px;
+	font-family: Helvetica;
 }
 
 /*#########################################################################################################################################################################*/
@@ -135,6 +142,7 @@ img {
 
 .hero-project {
 	font-family: cursive;
+	color: skyblue;
 	font-size: 25px;
 }
 
@@ -160,9 +168,9 @@ pre {
 	padding: 1em;
 }
 
-code {
+/*code {
 	display: block;
-}
+}*/
 
 /*#########################################################################################################################################################################*/
 																		/* CONTAINER */
