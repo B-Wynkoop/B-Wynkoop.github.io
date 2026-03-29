@@ -147,7 +147,7 @@ img {
 .hero-project {
 	font-family: cursive;
 	color: skyblue;
-	font-size: 30px;
+	font-size: 27px;
 }
 
 .projects-header {
@@ -155,6 +155,11 @@ img {
 	font-family: Helvetica;
 }
 
+.lab-project {
+	font-family: cursive;
+	color: skyblue;
+	font-size: 25px;
+}
 
 /*#########################################################################################################################################################################*/
 																		/* PRE */
