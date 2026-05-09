@@ -161,6 +161,10 @@ img {
 	font-family: Helvetica;
 }
 
+.thm-text p {
+	font-size: 19px;
+}
+
 .lab-project {
 	font-family: cursive;
 	color: skyblue;
