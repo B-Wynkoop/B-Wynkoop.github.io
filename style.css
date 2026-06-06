@@ -46,6 +46,9 @@ button {
 	color: black;
 	cursor: pointer;
 	margin-top: 15px;
+	border-radius: 20px;
+	flex-wrap: wrap;
+	gap: 5px;
 }
 
 button:hover {
