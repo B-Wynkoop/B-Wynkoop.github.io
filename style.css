@@ -15,6 +15,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	background-color: skyblue;
 }
 
 /*#########################################################################################################################################################################*/
@@ -26,8 +27,7 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	background-color: skyblue;
-
+	background-repeat: no-repeat;
 }
 
 body p, li {
