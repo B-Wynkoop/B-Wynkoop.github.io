@@ -15,18 +15,18 @@ html, body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	color: white;
 }
 
 /*#########################################################################################################################################################################*/
 																		/* BODY */
 
 body {
+	margin: 0;
 	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("wp.jpg");
 	background-size: cover;
-	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	color: white;
 }
 
 /*#########################################################################################################################################################################*/
