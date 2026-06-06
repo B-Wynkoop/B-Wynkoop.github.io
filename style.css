@@ -27,7 +27,6 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	background-repeat: no-repeat;
 }
 
 body p, li {
@@ -45,9 +44,9 @@ button {
 	font-size: 18px;
 	color: black;
 	cursor: pointer;
-	border-radius: 20px;
+	border-radius: 15px;
 	flex-wrap: wrap;
-	margin-left: 20px;
+	justify-content: center;
 }
 
 button:hover {
