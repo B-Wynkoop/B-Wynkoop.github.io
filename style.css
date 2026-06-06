@@ -221,15 +221,24 @@ a:hover {
 }
 
 .logo-container {
-	display: flex;
-	flex-direction: row;
 	align-items: center;
+	width: max-content;
+}
+
+.logo-container2 {
+	align-items: center;
+	width: max-content;
 }
 
 .logo-container img {
-	width: 40px;
+	margin: 10px;
+	width: 30px;
 	height: 30px;
-	margin: 4px;
+}
+
+.linkedin-icon {
+	width: 50px;
+	height: 30px;
 }
 
 /*#########################################################################################################################################################################*/
