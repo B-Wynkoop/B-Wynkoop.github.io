@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="D. Brady Wynkoop — Portfolio.">
+  <meta name="theme-color" content="#131716">
+
+  <title>D. Brady Wynkoop - Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!--##################################################################################################################################################-->
+
+  <!-- HEADER -->
+  <header>
+    <a class="brand" href="#home" aria-label="Brady Wynkoop home">D. Brady Wynkoop 
+
+    <nav aria-label="Main navigation">
+      <a href="#work">Projects</a>
+      <a href="#about">About</a>
+      <a href="#expertise">Toolkit</a>
+    </nav>
+
+    <a class="nav-contact" href="https://www.linkedin.com/in/dennis-wynkoop-0ba0a3379" target="_blank" rel="noopener">Let’s Connect <span>↗</span></a>
+  </header>
+
+  <main>
+
+<!--##################################################################################################################################################-->
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+      <div class="hero-top">
+        <p class="eyebrow">CYBERSECURITY BLUE TEAM · AI RESEARCH & SECURITY DEVELOPMENT</p>
+      </div>
+
+      <div class="hero-grid"><div>
+
+          <h1>Detect<br>Investigate<br><em>Respond</em></h1>
+
+          <p class="intro">Securing systems and protecting information serves as my main interest in the cybersecurity field. I am also researching AI, proper security guardrails, and development procedures to better prepare for future AI production and integration.</p>
+
+          <a class="button primary" href="#work">Explore my work <span>↘</span></a>
+
+          <a class="textlink" href="#about">A little about me</a>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit o1"></div>
+          <div class="orbit o2"></div>
+          <div class="orbit o3"></div>
+          <div class="cross c1">+</div>
+          <div class="cross c2">+</div>
+
+          <div class="core"><span>DETECT · INVESTIGATE · RESPOND</span></div>
+
+        </div>
+
+      </div>
+
+      <div class="hero-bottom"></div>
+
+    </section>
+
+<!--##################################################################################################################################################-->
+
+    <!-- PROJECTS -->
+    <section id="work" class="work section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"></p>
+          cd /Documents/Projects
+          <h2><em>~/Projects$ </em> ls</h2>
+        </div>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter projects">
+
+        <button class="active" data-filter="all" aria-pressed="true">All work</button>
+
+        <button data-filter="analysis" aria-pressed="false">Analysis</button>
+
+        <button data-filter="automation" aria-pressed="false">Automation</button>
+
+        <button data-filter="infrastructure" aria-pressed="false">Infrastructure</button>
+
+      </div>
+
+      <div id="projects" class="projects"></div>
+
+      <div class="work-note">
+        <span>IN DEVELOPMENT</span>
+        <p>🐦‍⬛ Raven · A local AI security operations assistant</p>
+        <span class="status">Work In Progress</span>
+      </div>
+
+      <div class="work-note">
+        <span>IN DEVELOPMENT</span>
+        <p>🐍 PyPer · A python script that runs a baseline persistence scan on local machines</p>
+        <span class="status">Work In Progress</span>
+      </div>
+    </section>
+
+<!--##################################################################################################################################################-->
+
+    <!-- ABOUT ME -->
+    <section id="about" class="about section">
+
+      <div class="portrait-wrap">
+        <img src="assets/portrait.jpeg" alt="D. Brady Wynkoop" loading="lazy">
+
+        <div class="portrait-caption"></div>
+      </div>
+
+      <div class="about-copy">
+        user@linux:
+        <h2><em>~$</em> whoami</h2>
+
+        <p>I would describe myself as someone who enjoys the understanding of
+          how things work inside and out. When something doesn’t look or behave the way its expected
+          to, I question it, investigate, and gather telemetry to
+          support a hypothesis whether thats malicious or benign.</p>
+
+        <p>I’m always working to expand my knowledge, strengthen my technical skills,
+          and become a better cybersecurity professional and person than the day prior.</p>
+
+        <p>Outside of tech, I enjoy golfing, relaxing at the beach, and spending time with family and friends.</p>
+
+        <p>~ Dennis Brady Wynkoop</p>
+
+        <div class="socials">
+
+          <a href="https://github.com/B-Wynkoop" target="_blank" rel="noopener">GitHub ↗</a>
+
+          <a href="https://tryhackme.com/p/Wynkoop" target="_blank" rel="noopener">TryHackMe ↗</a>
+
+          <a href="https://www.linkedin.com/in/dennis-wynkoop-0ba0a3379" target="_blank" rel="noopener">LinkedIn ↗</a>
+
+        </div>
+      </div>
+    </section>
+
+<!--##################################################################################################################################################-->
+
+    <!-- TOOLKIT -->
+    <section id="expertise" class="section expertise">
+      <div class="section-heading">
+        <div>
+          cd /Documents/Toolkit
+          <h2><em>~/Toolkit$ </em> ls </h2>
+        </div>
+      </div>
+
+      <div class="skills">
+        <details open>
+          <summary>
+            <span>#</span>
+            Investigation &amp; Analysis
+            <b>+</b>
+          </summary>
+
+          <p>Static and dynamic malware analysis in an isolated Windows VM.
+            Evidence collection, process inspection, and documenting
+            observed behavior.</p>
+
+          <div class="tags">
+            <span>PEStudio</span>
+            <span>Detect It Easy</span>
+            <span>CFF Explorer</span>
+            <span>Process Monitor</span>
+            <span>AutoRuns</span>
+            <span>TCP View</span>
+            <span>Event Viewer</span>
+            <span>Regshot</span>
+            <span>Splunk</span>
+            <span>Wireshark</span>
+            <span>TShark</span>
+            <span>Snort</span>
+          </div>
+        </details>
+
+        <details>
+          <summary>
+            <span>#</span>
+            Systems &amp; Infrastructure
+            <b>+</b>
+          </summary>
+
+          <p>Linux, Windows, and Mac configuration. Virtualization, network segmentation, routing, connectivity testing, and firewall rules and configurations.</p>
+
+          <div class="tags">
+            <span>Windows</span>
+            <span>Linux</span>
+            <span>Mac</span>
+            <span>VirtualBox</span>
+            <span>Cisco Packet Tracer</span>
+            <span>UFW</span>
+            <span>Windows Defender</span>
+            <span>Bash</span>
+            <span>SSH</span>
+            <span>PowerShell</span>
+
+          </div>
+        </details>
+
+        <details>
+          <summary>
+            <span>#</span>
+            Scripting &amp; Development
+            <b>+</b>
+          </summary>
+
+          <p>Developing programming and web development skills through online coursework and self testing. </p>
+
+          <div class="tags">
+            <span>Bash</span>
+            <span>Python</span>
+            <span>PowerShell</span>
+            <span>SQL</span>
+            <span>HTML / CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </details>
+
+        <details>
+          <summary>
+            <span>#</span>
+            Learning &amp; Credentials
+            <b>+</b>
+          </summary>
+
+          <p>Google & IBM Coursework, Simulated labs, and independent studies support my foundational security development.</p>
+
+          <div class="credential-links">
+            <a href="https://www.credly.com/badges/abc68ae7-7d98-4c33-908b-85bc6421c67c/linked_in_profile" target="_blank" rel="noopener">Google Cybersecurity Professional Certificate (v.2) ↗</a>
+
+            <a href="https://www.coursera.org/account/accomplishments/specialization/09H97DVS18WK?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof" target="_blank" rel="noopener">Google Cybersecurity ↗</a>
+
+            <a href="https://www.coursera.org/account/accomplishments/verify/IIYW7OBRPRXU" target="_blank" rel="noopener">Fundamentals of Python ↗</a>
+
+            <a href="https://www.coursera.org/account/accomplishments/verify/S0DVEJ1ET6NM" target="_blank" rel="noopener">Automate with Python ↗</a>
+
+            <a href="https://www.coursera.org/account/accomplishments/verify/S93XV4VPROH5" target="_blank" rel="noopener">Linux & SQL ↗</a>
+
+            <a href="https://www.coursera.org/account/accomplishments/verify/L9ZE3CWI2AHJ" target="_blank" rel="noopener">Ethical Hacking with Kali Linux ↗</a>
+
+            <a href="https://www.coursera.org/account/accomplishments/verify/NCT0V7E9CKFZ" target="_blank" rel="noopener">Networks & Network Security ↗</a>
+
+            <a href="https://www.coursera.org/account/accomplishments/verify/6RGTU87OWI53?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank" rel="noopener">OS, Software, Security, and Operational Procedures ↗</a>
+
+            <a href="https://www.coursera.org/account/accomplishments/verify/DG1OU8QFH7PY" target="_blank" rel="noopener">Assets, Threats, and Vulnerabilities ↗</a>
+
+            <a href="https://www.coursera.org/account/accomplishments/verify/NUJG03SZBN79" target="_blank" rel="noopener">Manage Security Risks ↗</a>
+
+            <a href="https://www.coursera.org/account/accomplishments/verify/Y38LAYBS9LWL" target="_blank" rel="noopener">Detection & Response ↗</a>
+
+            <a href="https://www.coursera.org/account/accomplishments/verify/7KD4WW0KCZAH?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank" rel="noopener">Hardware & Network Troubleshooting ↗</a>
+
+            <a href="https://www.coursera.org/account/accomplishments/verify/X7VLRW65E6RL" target="_blank" rel="noopener">Basic Troubleshooting ↗</a>
+
+            <a href="https://www.coursera.org/account/accomplishments/verify/B5LN0JA39EUC" target="_blank" rel="noopener">Foundations of Cybersecurity ↗</a>
+          </div>
+
+        </details>
+      </div>
+    </section>
+
+<!--##################################################################################################################################################-->
+
+    <!-- CONTACT -->
+    <section class="contact section">
+      <p class="eyebrow">KEEP THE CONVERSATION GOING</p>
+
+      <h2>Great Work Starts<br>With <em>a Question</em></h2>
+
+      <a class="button primary" href="https://www.linkedin.com/in/dennis-wynkoop-0ba0a3379" target="_blank" rel="noopener">Connect on LinkedIn ↗</a>
+    </section>
+  </main>
+
+<!--##################################################################################################################################################-->
+
+  <!-- FOOTER -->
+  <footer>
+
+    <span><span id="year"></span> - Portfolio</span>
+
+    <a href="https://github.com/B-Wynkoop" target="_blank" rel="noopener">GitHub ↗</a>
+
+    <a href="https://tryhackme.com/p/Wynkoop" target="_blank" rel="noopener">TryHackMe ↗</a>
+
+    <a href="#home">Back to Top ↑</a>
+  </footer>
+
+<!--##################################################################################################################################################-->
+
+  <!-- PROJECT PREVIEW DIALOG -->
+  <dialog id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-head">
+      <span class="eyebrow" id="dialog-category"></span>
+
+      <button class="close" aria-label="Close project">✕</button>
+    </div>
+
+    <div id="dialog-body"></div>
+  </dialog>
+
+<!--##################################################################################################################################################-->
+
+<!-- JAVASCRIPT -->
+  <script src="app.js"></script>
+</body>
+</html>
